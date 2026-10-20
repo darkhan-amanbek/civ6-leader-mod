@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- Мод -->
+    <Row Tag="LOC_MOD_EXAMPLE_AGRIPPA_NAME" Language="en_US"><Text>Marcus Agrippa (Rome)</Text></Row>
+    <Row Tag="LOC_MOD_EXAMPLE_AGRIPPA_NAME" Language="ru_RU"><Text>Марк Агриппа (Рим)</Text></Row>
+    <Row Tag="LOC_MOD_EXAMPLE_AGRIPPA_DESCRIPTION" Language="en_US"><Text>Adds Marcus Agrippa as a new leader of Rome.</Text></Row>
+    <Row Tag="LOC_MOD_EXAMPLE_AGRIPPA_DESCRIPTION" Language="ru_RU"><Text>Добавляет Марка Агриппу как нового лидера Рима.</Text></Row>
+
+    <!-- Лидер -->
+    <Row Tag="LOC_LEADER_EXAMPLE_AGRIPPA_NAME" Language="en_US"><Text>Marcus Agrippa</Text></Row>
+    <Row Tag="LOC_LEADER_EXAMPLE_AGRIPPA_NAME" Language="ru_RU"><Text>Марк Агриппа</Text></Row>
+    <Row Tag="LOC_LEADER_EXAMPLE_AGRIPPA_QUOTE" Language="en_US"><Text>"Small things grow great by concord."</Text></Row>
+    <Row Tag="LOC_LEADER_EXAMPLE_AGRIPPA_QUOTE" Language="ru_RU"><Text>«Согласием малые дела растут».</Text></Row>
+
+    <!-- Способность -->
+    <Row Tag="LOC_TRAIT_LEADER_EXAMPLE_AGRIPPA_NAME" Language="en_US"><Text>Curator Aquarum</Text></Row>
+    <Row Tag="LOC_TRAIT_LEADER_EXAMPLE_AGRIPPA_NAME" Language="ru_RU"><Text>Смотритель водопроводов</Text></Row>
+    <Row Tag="LOC_TRAIT_LEADER_EXAMPLE_AGRIPPA_DESCRIPTION" Language="en_US"><Text>Melee, ranged and anti-cavalry units receive +4 [ICON_Strength] Combat Strength within Roman territory. Each Bath district provides +2 [ICON_Production] Production.</Text></Row>
+    <Row Tag="LOC_TRAIT_LEADER_EXAMPLE_AGRIPPA_DESCRIPTION" Language="ru_RU"><Text>Юниты ближнего боя, дальнего боя и противоконные получают +4 [ICON_Strength] к силе на территории Рима. Каждый район «Бани» даёт +2 [ICON_Production] производства.</Text></Row>
+
+    <!-- Способность юнитов -->
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_NAME" Language="en_US"><Text>Agrippa's Legions</Text></Row>
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_NAME" Language="ru_RU"><Text>Легионы Агриппы</Text></Row>
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_DESCRIPTION" Language="en_US"><Text>+4 [ICON_Strength] Combat Strength within your territory.</Text></Row>
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_DESCRIPTION" Language="ru_RU"><Text>+4 [ICON_Strength] к силе на своей территории.</Text></Row>
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_PREVIEW" Language="en_US"><Text>+4 [ICON_Strength] Combat Strength within your territory.</Text></Row>
+    <Row Tag="LOC_ABILITY_EXAMPLE_AGRIPPA_DEFENSE_PREVIEW" Language="ru_RU"><Text>+4 [ICON_Strength] на своей территории.</Text></Row>
+  </LocalizedText>
+</GameData>

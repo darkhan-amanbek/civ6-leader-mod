@@ -1,0 +1,18 @@
+-- ===========================================================================
+-- Только для Gathering Storm (подключается через criteria в .modinfo).
+-- Сюда — всё, что ссылается на механики дополнений: губернаторы, лояльность,
+-- очки эпохи, гнев, дипломатическая победа, стратегические запасы.
+-- В базовой игре такие ссылки сломали бы загрузку мода.
+-- Если таких эффектов нет — удали этот файл и действие ..._XP2 из .modinfo.
+-- ===========================================================================
+
+-- Пример: в Gathering Storm лидер даёт +1 дипломатической благосклонности за ход
+-- (благосклонности нет в базовой игре). Раскомментируй и проверь имя модификатора
+-- через scripts/find_examples.py FAVOR в партии с Gathering Storm.
+--
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+--     ('TRAIT_LEADER_EXAMPLE_AGRIPPA', 'EXAMPLE_AGRIPPA_FAVOR');
+-- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+--     ('EXAMPLE_AGRIPPA_FAVOR', 'MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN');
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+--     ('EXAMPLE_AGRIPPA_FAVOR', 'Amount', '1');

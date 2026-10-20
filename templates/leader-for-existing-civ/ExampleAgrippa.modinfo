@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Шаблон: новый лидер для существующей цивилизации (Рим).
+     Перед использованием: замени id на новый GUID, префикс EXAMPLE_ на свой, имена файлов и тексты. -->
+<Mod id="c3b0936d-eeac-4990-935c-a78f640752cc" version="1">
+  <Properties>
+    <Name>LOC_MOD_EXAMPLE_AGRIPPA_NAME</Name>
+    <Description>LOC_MOD_EXAMPLE_AGRIPPA_DESCRIPTION</Description>
+    <Teaser>Marcus Agrippa leads Rome (template mod).</Teaser>
+    <Authors>YourName</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+
+  <ActionCriteria>
+    <Criteria id="EXAMPLE_Agrippa_Expansion2">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+
+  <!-- Экран выбора лидера -->
+  <FrontEndActions>
+    <UpdateDatabase id="EXAMPLE_Agrippa_Config">
+      <File>Data/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="EXAMPLE_Agrippa_Colors_FrontEnd">
+      <File>Data/Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="EXAMPLE_Agrippa_Text_FrontEnd">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+
+  <!-- Сама партия -->
+  <InGameActions>
+    <UpdateDatabase id="EXAMPLE_Agrippa_Gameplay">
+      <File>Data/Leader.sql</File>
+    </UpdateDatabase>
+    <!-- Пример файла только для Gathering Storm: загружается лишь в этом ruleset -->
+    <UpdateDatabase id="EXAMPLE_Agrippa_Gameplay_XP2" criteria="EXAMPLE_Agrippa_Expansion2">
+      <File>Data/Expansion2.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="EXAMPLE_Agrippa_Colors">
+      <File>Data/Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="EXAMPLE_Agrippa_Text">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+
+  <Files>
+    <File>Data/Config.sql</File>
+    <File>Data/Leader.sql</File>
+    <File>Data/Expansion2.sql</File>
+    <File>Data/Colors.xml</File>
+    <File>Text/Text.xml</File>
+  </Files>
+</Mod>
